@@ -1,0 +1,85 @@
+h5,h6{
+  text-align: left;
+  padding: 1% 40% 0;
+  color: #9F8772;
+}
+
+a{
+text-decoration: none;
+}
+/* classes */
+
+.colored{
+    background-color: #EDE4E0;
+}
+.second-div a div {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+.first-div{
+  text-align: center;
+  padding: 7%;
+  background-color: #EDE4E0;
+}
+.second-div{
+  text-align: center;
+  padding: 7%;
+  background-color: #C8DBBE;
+}
+.head-text{
+  font-size: 260%;
+  color: #665A48;
+  padding: 0 0 4% 0;
+}
+.light .code{
+    text-decoration: none;
+    color : #665A48;
+}
+.light{
+  background-color: #9F8772;
+}
+.dark .code{
+  color : #9F8772;
+}
+.dark{
+  background-color: #665A48;
+}
+.cards{
+    text-align: left;
+    margin: 2% 20%;
+    border-top: 40px solid transparent;
+    border-left: 80px solid #C8DBBE;
+    border-bottom: 40px solid transparent;
+}
+.code-subtitle{
+    padding-left: 10%;
+}
+.code-title{
+    padding-left: 10%;
+}
+
+/* buttons */
+
+.prev{
+     width: 0;
+     height: 0;
+     border-top: 40px solid transparent;
+     border-right: 80px solid lightblue;
+     border-bottom: 40px solid transparent;
+ }
+ .next{
+     width: 0;
+     height: 0;
+     border-top: 40px solid transparent;
+     border-left: 80px solid lightblue;
+     border-bottom: 40px solid transparent;
+ }
+ section .btn a{
+    background-color: #9F8772;
+    font-size: 40px;
+    color: #C8DBBE;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10%;
+}
+

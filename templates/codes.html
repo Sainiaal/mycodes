@@ -1,0 +1,27 @@
+{% import 'bootstrap/wtf.html' as wtf %}
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sainiaal Codes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Trispace&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #EDE4E0;">
+    <div style="font-family: 'Roboto Slab', serif;
+    padding: 2% 0;
+    position: relative;
+    left: 5%;">
+    <h2>{{code.title}}</h2>
+    <p style="font-family: serif;  font-weight: bold;"> {{code.subtitle}}</p>
+    </div>
+    <div style="background-color: #9F8772; border-radius: 2%;">
+       <span style="font-family: 'Trispace', sans-serif;
+    padding: 100px 200px;
+    position: relative;
+    left: 5%;
+    color: #4a3a22;">{{code.code |safe}}</span>
+    </div>
+</body>
+</html>
